@@ -3,7 +3,7 @@ import { getAlumbs } from './albums.controller';
 
 const router = Router();
 router
-    .route('albums')
+    .route('/albums')
     .get(getAlumbs);
 
 export default router;
